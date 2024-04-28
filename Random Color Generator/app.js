@@ -8,7 +8,7 @@ setInterval(() => {
     for (let i = 1; i <= 4; i++) {
         document.getElementById('div' + i).style.backgroundColor = getRandomColor();
     }
-}, 1000);
+}, 500);
 
 // Function to update background color, RGB, and HEX values
 function updateColor() {
@@ -34,7 +34,7 @@ function rgbToHex(r, g, b) {
 // Function to copy RGB value to clipboard
 function copyRgbValue() {
     let val = box.value,
-        temp = document.createElement('input');
+    temp = document.createElement('input');
     document.body.appendChild(temp);
     temp.setAttribute('value', val);
     temp.select();

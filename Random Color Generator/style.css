@@ -1,41 +1,41 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
       overflow-x: hidden;
 }
 
-.inner-div {
-    height: 20vh; 
-    width: 18vw; 
-    margin: 0 5px;
-    padding: 10px;
-}
-
-.container-fluid{
-    height: 100vh;
-    width: 100vw;
-    background-image: url("sunset-rain.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+#main{
+  height: 100vh;
+  background-image: url("Images/sunset-rain.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 #one h2{
   font-family: "Lobster Two", sans-serif;
   font-size: 50px;
-  color: rgb(233,160,110);
-  text-shadow: rgb(30, 29, 29) 1px 4px;
-}
-
-#two{
-    position: relative;
-    top: 25%;
+  color: rgb(55, 52, 52);
+  text-shadow: rgb(220, 130, 34) 3px 3px;
 }
 
 p{
-    top: 25%;
-    text-align: center;
+  position: relative;
+  top: 25%;
+}
+
+#two{
+  position: relative;
+  top: 25%;
+}
+
+#two{
+  position: relative;
+  top: 25%;
+}
+
+.inner-div {
+    height: 20vh; 
+    width: 15vw; 
 }
 
 #container{
@@ -52,15 +52,11 @@ p{
 }
 
 #green::-webkit-slider-runnable-track {
-    background: linear-gradient(to right, #000, rgb(17, 201, 17));
+  background: linear-gradient(to right, #000, rgb(17, 201, 17));
 }
 
 #blue::-webkit-slider-runnable-track {
-    background: linear-gradient(to right, #000, blue);
-}
-
-input[type="range"] {
-  width: 250px; 
+  background: linear-gradient(to right, #000, blue);
 }
 
 

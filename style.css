@@ -22,6 +22,7 @@ body{
 p{
   position: relative;
   top: 25%;
+  font-size: large;    
 }
 
 #two{

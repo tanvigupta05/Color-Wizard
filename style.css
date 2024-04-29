@@ -19,10 +19,9 @@ body{
   text-shadow: rgb(220, 130, 34) 2px 3px;
 }
 
-h3{
+p{
   position: relative;
   top: 25%;
-  font-size: large;
 }
 
 #two{

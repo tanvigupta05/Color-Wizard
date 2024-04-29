@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+      overflow-x: hidden;
+}
+
+#main{
+  height: 100vh;
+  background-image: url("Images/sunset-rain.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#one h2{
+  font-family: "Lobster Two", sans-serif;
+  font-size: 50px;
+  color: rgb(53, 51, 51);
+  text-shadow: rgb(220, 130, 34) 2px 3px;
+}
+
+p{
+  position: relative;
+  top: 25%;
+}
+
+#two{
+  position: relative;
+  top: 25%;
+}
+
+#two{
+  position: relative;
+  top: 25%;
+}
+
+.inner-div {
+    height: 20vh; 
+    width: 15vw; 
+}
+
+#container{
+  height: 100vh;
+}
+
+#slider{
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+#red::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #000, red);
+}
+
+#green::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #000, rgb(17, 201, 17));
+}
+
+#blue::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #000, blue);
+}
+
+
+
